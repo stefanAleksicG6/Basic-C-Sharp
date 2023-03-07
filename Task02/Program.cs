@@ -2,7 +2,7 @@
 string firstInput = Console.ReadLine();
 int firstNum;
 bool firstSuccess = int.TryParse(firstInput, out firstNum);
-
+Console.WriteLine(Console.ReadLine());
 Console.WriteLine("Enter second number :");
 string secondInput = Console.ReadLine();
 int secondNum;
